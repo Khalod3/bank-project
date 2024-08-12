@@ -14,15 +14,9 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   final TextEditingController accountController = TextEditingController();
-
   final TextEditingController passwordController = TextEditingController();
 
-//login method
   void login() {
-    /*
-    authinticaton here
-    */
-
     Navigator.push(
       context,
       MaterialPageRoute(
@@ -39,8 +33,6 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            //logo
-
             Icon(Icons.monetization_on_outlined,
                 size: 72, color: Theme.of(context).colorScheme.inversePrimary),
 
