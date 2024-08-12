@@ -49,7 +49,13 @@ class NewDrawer extends StatelessWidget {
             DrawerTile(
               icon: Icons.logout,
               onTap: () {
+                /*
+                get out of the page 
+                */
                 Navigator.pop(context);
+                /*
+                go to the target page 
+                */
                 Navigator.push(
                     context,
                     MaterialPageRoute(

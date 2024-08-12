@@ -47,12 +47,6 @@ class Home extends StatelessWidget {
             Expanded(
               child: Stack(
                 children: [
-                  const Positioned(
-                    top: 20,
-                    left: 25,
-                    right: 25,
-                    child: CreditCard(),
-                  ),
                   Container(
                     margin: const EdgeInsets.only(top: 167),
                     color: Theme.of(context).colorScheme.surface,
@@ -64,6 +58,12 @@ class Home extends StatelessWidget {
                         TransactionList()
                       ],
                     ),
+                  ),
+                  const Positioned(
+                    top: 20,
+                    left: 25,
+                    right: 25,
+                    child: CreditCard(),
                   ),
                 ],
               ),

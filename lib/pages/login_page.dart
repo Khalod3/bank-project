@@ -82,6 +82,8 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
                 const SizedBox(width: 4),
+
+                //encourage the user to tap on it
                 GestureDetector(
                   onTap: widget.onTap,
                   child: Text(

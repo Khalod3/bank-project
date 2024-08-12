@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:bank_application/components/button1.dart';
 import 'package:bank_application/components/text_field.dart';
 import 'package:bank_application/pages/home_page.dart';
